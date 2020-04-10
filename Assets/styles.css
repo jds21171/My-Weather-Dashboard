@@ -1,0 +1,45 @@
+.navbar-brand {
+    /* Centering text in middle of narbar */
+  margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+.searcharea {
+    background-color: #e6f2ff;
+    padding: 20px;
+}
+
+.uvindex {
+    padding: 5px;
+}
+
+.one-fifth {
+    /* Adding proper spacing */
+    box-sizing: border-box;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.one-fifth:first-child {
+    margin-left: 0px;
+}
+
+.one-fifth:last-child{
+    margin-right: 0px;
+}
+
+.forecast {
+    /* Forecast boxes, making sure they are internally spaced out and legible */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#searchbtn{
+    /* Making sure search button is same size as search input box */
+    padding: 6px 5px 0px 5px;
+}
